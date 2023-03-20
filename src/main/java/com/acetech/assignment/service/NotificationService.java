@@ -5,5 +5,6 @@ import com.acetech.assignment.pojos.BatchStatus;
 
 public interface NotificationService {
 
+
     void notifyBatchCreated(BatchStatus batchStatus);
 }

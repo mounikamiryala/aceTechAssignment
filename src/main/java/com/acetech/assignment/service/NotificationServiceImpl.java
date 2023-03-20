@@ -10,6 +10,9 @@ import org.springframework.web.client.RestTemplate;
 public class NotificationServiceImpl implements NotificationService {
 	public final String webhookUrl = "https://webhook.site/964cca2f-7527-4e66-99d1-2ae425544d8e";
 
+	/*
+	 * Method to notify the batch creation status.
+	 */
 	@Override
 	public void notifyBatchCreated(BatchStatus batchStatus ){
 		RestTemplate restTemplate = new RestTemplate();
